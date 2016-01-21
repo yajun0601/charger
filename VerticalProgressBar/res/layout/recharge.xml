@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="2015年1月1日14:00:00   电池温度：20℃   联系电话：132459889878（报修）"
+        />
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Battery"
+        />
+    <TextView
+        android:id="@+id/batery_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25摄氏度"
+        />
+    <TextView
+        android:id="@+id/telephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系电话：132459889878（报修）"
+        />
+    -->
+</LinearLayout>
